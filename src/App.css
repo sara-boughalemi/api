@@ -1,0 +1,39 @@
+/* .App {
+  text-align: center;
+} */
+body {
+  background: #c2e59c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #64b3f4,
+    #c2e59c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #64b3f4,
+    #c2e59c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  box-shadow: rgba(46, 240, 224, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(59, 46, 240, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.title{
+  color: rgb(167, 255, 140);
+}
+.body{
+  color: #ddfcbd;
+}
+.post{
+  color: rgb(165, 255, 75);
+}
+.all{
+  margin-top: 100px;
+}
